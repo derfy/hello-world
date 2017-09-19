@@ -45,7 +45,6 @@ deploy:
         username: $USERNAME
         password: $PASSWORD
         repository: derfy/hello-world
-        tag: my-amazing-tag
         registry: https://registry.hub.docker.com
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
     
