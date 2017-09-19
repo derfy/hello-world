@@ -44,7 +44,7 @@ build:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
-        repository: derfy/dotnetcoreservices/hello-world
+        repository: dotnetcoreservices/hello-world
         registry: https://registry.hub.docker.com
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
     
