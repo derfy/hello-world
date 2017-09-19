@@ -38,7 +38,8 @@ build:
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/app
           cd $WERCKER_OUTPUT_DIR/app
-deploy:
+
+          deploy:
   steps:
     - internal/docker-push:
         username: $USERNAME
